@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "SalesTaxEstimator",
+    "version": "1.0",
+    "description": "Adds an estimated total price with the tax included and displays it near the original price.",
+    "icons": {
+        "16": "icons/dollar.svg",
+        "32": "icons/dollar.svg",
+        "48": "icons/dollar.svg",
+        "64": "icons/dollar.svg",
+        "80": "icons/dollar.svg",
+        "96": "icons/dollar.svg"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.amazon.com/*"
+            ],
+            "js": [
+                "js/amazon.js"
+            ]
+        }
+    ]
+}
