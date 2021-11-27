@@ -1,0 +1,32 @@
+{
+  "name": "salestaxestimator",
+  "version": "1.0.0",
+  "description": "Adds an estimated total price with the tax included and displays it near the original price.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustinshackley/SalesTaxEstimator.git"
+  },
+  "keywords": [
+    "tax",
+    "estimate",
+    "sales",
+    "salestax",
+    "estimator",
+    "add"
+  ],
+  "author": "Dustin Shackley",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/dustinshackley/SalesTaxEstimator/issues"
+  },
+  "homepage": "https://github.com/dustinshackley/SalesTaxEstimator#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
