@@ -12,7 +12,7 @@ url = 'https://www.salestaxhandbook.com/api/'
 with open('zip-codes.csv', mode = 'r') as file:
     reader = csv.reader(file)
 
-    with open('zip-tax-rate.csv', mode = 'w', newline='') as taxFile:
+    with open('extension/data/zip-tax-rate.csv', mode = 'w', newline='') as taxFile:
         writer = csv.writer(taxFile)
 
         for lines in reader:

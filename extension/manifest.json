@@ -2,6 +2,7 @@
     "manifest_version": 2,
     "name": "SalesTaxEstimator",
     "version": "1.0",
+    "homepage_url": "https://github.com/dustinshackley/SalesTaxEstimator",
     "description": "Adds an estimated total price with the tax included and displays it near the original price.",
     "icons": {
         "16": "icons/dollar.svg",
@@ -10,6 +11,14 @@
         "64": "icons/dollar.svg",
         "80": "icons/dollar.svg",
         "96": "icons/dollar.svg"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icons/dollar.svg",
+        "default_title": "SalesTaxEstimator",
+        "default_popup": "popup/settings.html"
     },
     "content_scripts": [
         {
@@ -20,5 +29,8 @@
                 "js/amazon.js"
             ]
         }
+    ],
+    "web_accessible_resources": [
+        "data/zip-tax-rate.csv"
     ]
 }

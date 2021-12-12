@@ -107,6 +107,11 @@ function getPriceWithTax(page) {
 }
 
 (function main() {
+  if (window.hasRun) {
+    return;
+  }
+  window.hasRun = true;
+
   const page = determinePage();
 
   if (page) {
