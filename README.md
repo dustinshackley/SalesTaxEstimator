@@ -20,6 +20,3 @@ Walmart.com
 # Supported Browsers
 Firefox
 Chrome
-
-# Thanks
-http://www.salestaxstates.com for the numbers.
